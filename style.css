@@ -1,0 +1,491 @@
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1;
+  color: #131219;
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e5e2df;
+}
+
+/* header */
+.bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  text-align: center;
+}
+
+.light {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.header {
+  height: 600px;
+  background-image:url(images/header.jpg);
+  background-position: 20%; 
+  background-attachment: fixed;
+  background-size: 100%;
+  margin-top: 0px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#h_400 {
+  height: 400px;
+}
+
+
+#h_600 {
+  height: 600px;
+}
+
+#h_800 {
+  height: 800px;
+}
+
+.header_container {
+  width: 400px;
+  margin: 0px auto 0px auto;
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+
+.line {
+  width: 75px;
+  height: 2px;
+  background-color: #131219;
+  margin: auto;
+}
+
+.header .line{
+  background-color: white;
+}
+
+/* end header */
+
+/* nav */
+
+.nav {
+
+  width: 60%;
+  margin: 0px auto 0px auto;
+}
+
+.nav .wordmark{
+  float:left;
+  display: block;
+  position: relative;
+  top: 14px;
+}
+
+.nav .wordmark_outline{
+  border: 1px solid white;
+  padding: 0px 24px 0px 24px;
+}
+
+.nav .wordmark_outline p{
+  line-height: 0px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav .external_nav {
+  display: block;
+  float:right;
+  margin-left: 40px;
+}
+
+/* end nav */
+
+/* tabs */
+
+.nav_tabs {
+  height: 150px;
+  background-color: #131219;
+}
+
+.nav_tabcontainer{
+  width: 50%;
+  height: 150px;
+  margin: auto;
+}
+
+.tab {
+  height: 150px;
+  width: 20%;
+  display: block;
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: auto;
+}
+
+.tab p{
+  font-size: 12px;
+}
+
+.circle {
+  margin:auto;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #FFF;
+}
+
+/* end nav tabs*/
+/* about */
+
+.about {
+  height: 500px;
+}
+
+.about_container {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  width: 60%;
+  margin: auto auto 0px auto;
+  text-align: center;
+}
+
+.body_p {
+  color: #131219;
+}
+
+
+/* END INTERNAL NAV STUFF*/
+/* START SERVICE STUFF */
+
+.study {
+  height: 660px;
+}
+
+.study_container {
+  width: 60%;
+  margin: 0px auto auto auto;
+  text-align: center;
+}
+
+.study_module {
+  display: block;
+  float:left;
+  width: 31%;
+  height: 420px;
+  margin: 60px 0px 0px 0px;
+  background-color: #131219;
+}
+
+#left {
+  margin-right: 3.1%;
+}
+
+#middle {
+  float:left;
+}
+
+#right {
+  float:right;
+  margin-left: 3.1%;
+}
+
+.study_module_picture {
+  width: 100%;
+  height: 61.2%;
+  background-image:url(images/header.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.study_module_picture img{
+  margin: 0px;
+  position:relative;
+  top: 30%;
+}
+
+.study_module_bar {
+  padding: 30px;
+}
+
+.study_module_bar h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  color: white;
+}
+
+.study_module_bar p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1;
+  color: white;
+  line-height: 1.6;
+}
+
+/* END INTERNAL NAV STUFF*/
+/* START RECEMT STUFF */
+
+.edu {
+  height: 660px;
+}
+
+.edu_header_container {
+  height: 120px;
+  width: 60%;
+  margin: 0px auto auto auto;
+  text-align: center;
+}
+
+.edu_container {
+  padding-top: 60px;
+  margin: 0px auto auto auto;
+  text-align: center;
+  height:400px;
+  background-color: #131219;
+}
+
+.edu_explanation{
+  padding-top: 90px;
+  float:left;
+  text-align: left;
+}
+
+.edu_explanation h2{
+  font-weight: 700;
+  color: white;
+  line-height: 0;
+}
+
+.edu .image{
+  float:right;
+  margin-top:20px;
+  height: 300px;
+  width: 60%;
+  background-image: url(images/f1.png);
+  background-size: 100%;
+  background-position: center; 
+}
+
+.edu .edu_margin{
+  width: 60%;
+  margin:auto;
+}
+
+/* END INTERNAL NAV STUFF*/
+/* START RECEMT STUFF */
+
+.works {
+  height: 460px;
+}
+
+.works .line {
+  margin-bottom: 60px;
+}
+
+.works_container {
+  height: 120px;
+  width: 60%;
+  margin: 0px auto auto auto;
+  text-align: center;
+}
+
+.worksthumbnail{
+  margin: 0px;
+  display: block;
+  float:left;
+  width: 25%;
+  height: 240px;
+  background-attachment: fixed;
+  background: center;
+  background-size: 120%;
+}
+
+/*WORK THUMBNAILS*/
+#a {
+  background-image: url(images/holder1.png);
+}
+
+#b {
+  background-image: url(images/holder2.png);
+}
+
+#c {
+  background-image: url(images/holder3.png);
+}
+
+#d {
+  background-image: url(images/holder4.png);
+}
+
+#e {
+  background-image: url(images/holder5.png);
+}
+
+#f {
+  background-image: url(images/holder6.png);
+}
+
+#g {
+  background-image: url(images/holder7.png);
+}
+
+#h {
+  background-image: url(images/holder8.png);
+}
+/*WORK THUMBNAILS*/
+
+/* END RECENT*/
+
+
+/* START SERVICE STUFF */
+
+
+.contact_container {
+  width: 60%;
+  margin: 0px auto auto auto;
+  padding-top: 320px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.contact_container h2 {
+  color: #131219;
+  margin: 40px;
+}
+
+.contact_button {
+  width: 270px;
+  border: 2px solid #131219;
+  padding: 0px 0px 0px 0px;
+  margin: 40px auto auto auto;
+}
+
+.contact_button p{
+  color: #131219;
+  font-size:24px;
+  font-weight: 400;
+  margin: 10px;
+}
+
+/* END CONTACT STUFF*/
+
+/* footer*/
+
+.line_full {
+  width: 60%;
+  height: 2px;
+  background-color: #131219;
+  margin: auto;
+}
+
+.footer {
+  height: 300px;
+}
+
+.footer_container {
+  width: 60%;
+  margin: auto;
+}
+
+.footer .footer_container ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+.footer .footer_container ul li{
+  display: block;
+  color: #131219;
+}
+
+.footer .footer_container ul li p{
+  display: block;
+  color: #131219;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.left_footer {
+  float: left;
+}
+
+.right_footer {
+  float: right;
+}
+
+/* Image container */
+.image_container {
+  width: 100%;
+  background-size: 100%;
+  margin-top: 60px;
+}
+
+#proja {
+  background-image: url(images/holder1.png);
+  height: 960px;
+}
+
+#projb {
+  background-image: url(images/holder2.png);
+  height: 960px;
+}
+
+#projc {
+  background-image: url(images/holder3.png);
+  height: 960px;
+}
+
+#projd {
+  background-image: url(images/holder4.png);
+  height: 960px;
+}
+
+#proje {
+  background-image: url(images/holder5.png);
+  height: 960px;
+}
+
+#projf {
+  background-image: url(images/holder6.png);
+  height: 960px;
+}
+
+#projg {
+  background-image: url(images/holder7.png);
+  height: 960px;
+}
+
+#projh {
+  background-image: url(images/holder8.png);
+  height: 960px;
+}
